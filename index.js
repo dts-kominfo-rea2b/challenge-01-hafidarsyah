@@ -2,6 +2,7 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const firstUser = {
+  name: "Monica",
   gender: "female",
   age: 17,
   email: "monica@dingdong.com",
@@ -24,20 +25,17 @@ const firstUser = {
     },
   ],
   favoriteRestaurant: [
-    "Bento",
-    "Sushi",
     "Pancake",
     "Eggy",
     "Tempura",
     "Bento",
-    "Eggy",
     "Padang",
     "Tteok",
-    "Sushi",
     "Sushi",
   ],
 };
 const secondUser = {
+  name: "Wendy",
   gender: "male",
   age: 23,
   email: "wendy@dingdong.com",
@@ -68,7 +66,6 @@ const secondUser = {
     "Tempura",
     "Bento",
     "Sushi",
-    "Pancake",
     "Padang",
     "Katsu",
     "Geprek",
